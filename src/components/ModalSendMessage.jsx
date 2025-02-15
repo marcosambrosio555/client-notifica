@@ -21,7 +21,7 @@ export function ModalSendMessage({ usersSelected, message, setModalSendMessage }
     }
 
     async function handleSend(e) {
-
+        consol.log("Ok")
         await fetch(`${apikey}message`, {
             method: "POST",
             headers: {
