@@ -1,0 +1,7 @@
+.buttons button {
+    background-color: var(--main-color);
+    height: 4rem;
+    padding: 0 3rem;
+    border-radius: .4rem;
+    width: auto;
+}

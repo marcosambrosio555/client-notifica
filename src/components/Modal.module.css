@@ -1,0 +1,50 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    background-color: var(--body-color);
+    padding: 2rem;
+    width: 46rem;
+    border-radius: .4rem;
+    transition: .5s ease-out;
+    border: 1px solid var(--body-color-light);
+}
+
+.modal form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.modal p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-clamp: 8;
+    -webkit-line-clamp: 8;
+    font-size: 1.5rem;
+    overflow: hidden;
+}
+
+.modal h4 {
+    margin-bottom: .4rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.modal button:first-child {
+    background-color: transparent;
+    color: var(--text-color);
+}
+
+.modal button:first-child:hover {
+    opacity: .7;
+}

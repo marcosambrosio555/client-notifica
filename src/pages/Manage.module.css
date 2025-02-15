@@ -1,0 +1,61 @@
+.manageUsers .users {
+    border-radius: .4rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 50rem;
+    gap: .4rem;
+    margin-top: 1.6rem;
+}
+
+.manageUsers .users .col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .6rem .4rem;
+    /* border-radius: .4rem; */
+    transition: .5s ease-out;
+    border-bottom: 2px dotted #f5f5f5;
+}
+
+/* .manageUsers .users .col:nth-child(2n + 1) {
+    background-color: var(--body-color-light);
+} */
+
+/* .manageUsers .users .col:hover {
+    background-color: var(--body-color-light);
+} */
+
+.manageUsers .users .col .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.manageUsers .users .col .info .username {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.manageUsers .users .col .info .phone {
+    font-size: 1.4rem;
+    margin-top: .4rem;
+    color: var(--text-color-light);
+}
+
+.manageUsers .users .col .actions {
+    display: flex;
+    justify-content: space-between;
+    gap: .8rem;
+    padding: .4rem;
+}
+
+.manageUsers .users .col .actions a {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    padding: .8rem;
+    text-decoration: none;
+    width: auto;
+    border-radius: .4rem;
+    transition: .5s ease-out;
+}

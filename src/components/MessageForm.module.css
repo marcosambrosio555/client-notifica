@@ -1,0 +1,27 @@
+.MessageForm {
+    margin-top: 2rem;
+    height: 40rem;
+}
+
+.MessageForm form {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    height: 100%;
+}
+
+.MessageForm label {
+    display: block;
+    font-weight: bold;
+}
+
+.MessageForm textarea {
+    flex: 1;
+    width: 100%;
+    border-radius: .4rem;
+    padding: 2rem;
+    font-style: italic;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    letter-spacing: 1px;
+}

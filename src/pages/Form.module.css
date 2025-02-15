@@ -1,0 +1,13 @@
+.Form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-top: 2.4rem;
+}
+
+
+.Form label {
+    display: block;
+    margin-bottom: .8rem;
+    font-weight: bold;
+}
