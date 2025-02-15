@@ -19,9 +19,12 @@ export function ModalSendMessage({ usersSelected, message, setModalSendMessage }
         }
         return `${users[0].username}, ${users[1].username} e mais ${users.length - 2} pessoas`
     }
-
+ 
     async function handleSend(e) {
+        
         consol.log("Ok")
+        console.log(`${apikey}message`)
+
         await fetch(`${apikey}message`, {
             method: "POST",
             headers: {
