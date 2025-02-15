@@ -1,3 +1,5 @@
+const apikey = import.meta.env.VITE_API
+
 import styles from './Modal.module.css'
 
 export function ModalSendMessage({ usersSelected, message, setModalSendMessage }) {
@@ -20,7 +22,7 @@ export function ModalSendMessage({ usersSelected, message, setModalSendMessage }
 
     async function handleSend(e) {
 
-        await fetch("http://localhost:9091/message", {
+        await fetch(`${apikey}message`, {
             method: "POST",
             headers: {
                 "Content-type": "application/json",
