@@ -87,7 +87,7 @@ export function SelectUsers({ users, setUsers }) {
                     {
                         users.length > 0 ? (
                             users.map(user => (
-                                <div key={user._id} className={styles.col}>
+                                <div key={user.phone} className={styles.col}>
                                     <div className={styles.info}>
                                         <span className={styles.username}>{user.username}</span>
                                         <span className={styles.phone}>{user.phone}</span>
